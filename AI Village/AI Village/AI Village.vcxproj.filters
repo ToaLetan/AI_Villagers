@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Primary Game Files">
+      <UniqueIdentifier>{e8c9dd12-941f-4ffe-821d-693228fc5653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Object Files">
+      <UniqueIdentifier>{f0b5cff8-4014-441b-96c0-6293f60a6b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Object Headers">
+      <UniqueIdentifier>{7bf7982d-f8e4-4e65-af9e-bc71c9ddda5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Primary Game Files</Filter>
     </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Game Object Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>Source Files\Game Object Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Game Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>Header Files\Game Object Headers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
