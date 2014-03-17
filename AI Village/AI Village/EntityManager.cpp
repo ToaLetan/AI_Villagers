@@ -1,5 +1,11 @@
 #include "EntityManager.h"
 
+EntityManager& EntityManager::GetInstance()
+{
+	static EntityManager instance;
+	return instance;
+}
+
 GameSprite* EntityManager::GetEntityByName(std::string name)
 {
 	GameSprite* returnSprite = NULL;

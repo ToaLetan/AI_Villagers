@@ -5,7 +5,7 @@
 
 int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-	EntityManager* testManager = new EntityManager();
+	EntityManager* testManager = &EntityManager::GetInstance();
 
 	GameSprite* testChar = new GameSprite(0, 0);
 	testChar->SetSprite("AITestSprite.png");
