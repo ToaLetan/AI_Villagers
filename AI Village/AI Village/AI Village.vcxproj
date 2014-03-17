@@ -84,11 +84,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameSprite.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EntityManager.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameSprite.h" />
   </ItemGroup>

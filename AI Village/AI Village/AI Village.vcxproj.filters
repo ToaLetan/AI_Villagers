@@ -33,12 +33,18 @@
     <ClCompile Include="GameSprite.cpp">
       <Filter>Source Files\Game Object Files</Filter>
     </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Game Object Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameObject.h">
       <Filter>Header Files\Game Object Headers</Filter>
     </ClInclude>
     <ClInclude Include="GameSprite.h">
+      <Filter>Header Files\Game Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
       <Filter>Header Files\Game Object Headers</Filter>
     </ClInclude>
   </ItemGroup>

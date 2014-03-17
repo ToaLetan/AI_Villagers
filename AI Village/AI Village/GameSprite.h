@@ -5,7 +5,7 @@
 #include <string>
 #include "GameObject.h"
 
-class GameSprite : protected GameObject
+class GameSprite : public GameObject
 {
 	public:
 		virtual sf::Sprite GetSprite();
@@ -15,7 +15,7 @@ class GameSprite : protected GameObject
 		~GameSprite();
 
 		void Update(double deltaTime);
-		void Render();
+		void Render(sf::RenderWindow* window);
 
 private:
 	float x;

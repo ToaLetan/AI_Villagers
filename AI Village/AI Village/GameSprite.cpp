@@ -26,7 +26,7 @@ void GameSprite::Update(double deltaTime)
 {
 
 }
-void GameSprite::Render()
+void GameSprite::Render(sf::RenderWindow* window)
 {
-
+	window->draw(sprite);
 }
