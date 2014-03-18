@@ -12,9 +12,24 @@ void GameSprite::SetSprite(std::string spriteName)
 	sprite.setTexture(texture);
 }
 
-GameSprite::GameSprite(float x, float y) : GameObject()
+sf::Vector2f GameSprite::GetPosition()
 {
+	return sprite.getPosition();
+}
 
+void GameSprite::SetPosition(sf::Vector2f spritePos)
+{
+	sprite.setPosition(spritePos);
+}
+
+sf::Vector2u GameSprite::GetSize()
+{
+	return sprite.getTexture()->getSize();
+}
+
+GameSprite::GameSprite(sf::Vector2f spritePos) : GameObject()
+{
+	sprite.setPosition(spritePos);
 }
 
 GameSprite::~GameSprite()

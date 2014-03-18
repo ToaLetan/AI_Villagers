@@ -8,10 +8,15 @@
 class GameSprite : public GameObject
 {
 	public:
-		virtual sf::Sprite GetSprite();
-		virtual void SetSprite(std::string spriteName);
+		sf::Sprite GetSprite();
+		void SetSprite(std::string spriteName);
 
-		GameSprite(float x, float y);
+		sf::Vector2f GetPosition();
+		void SetPosition(sf::Vector2f spritePos);
+
+		sf::Vector2u GetSize();
+
+		GameSprite(sf::Vector2f spritePos);
 		~GameSprite();
 
 		void Update(double deltaTime);
