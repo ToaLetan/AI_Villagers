@@ -28,6 +28,12 @@
     <Filter Include="Source Files\Management Files">
       <UniqueIdentifier>{2f645d07-a8e5-43a4-a68e-b511bab3fbf3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\AI Headers">
+      <UniqueIdentifier>{69b64bf3-46cb-4913-864d-602499ae2349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI Files">
+      <UniqueIdentifier>{a9de1593-5eb4-4421-9bc5-8fdd33f9f331}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WinMain.cpp">
@@ -45,6 +51,15 @@
     <ClCompile Include="World.cpp">
       <Filter>Source Files\Management Files</Filter>
     </ClCompile>
+    <ClCompile Include="Villager.cpp">
+      <Filter>Source Files\Game Object Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathNode.cpp">
+      <Filter>Source Files\AI Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\AI Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameObject.h">
@@ -58,6 +73,15 @@
     </ClInclude>
     <ClInclude Include="EntityManager.h">
       <Filter>Header Files\Management Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Villager.h">
+      <Filter>Header Files\Game Object Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PathNode.h">
+      <Filter>Header Files\AI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\AI Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

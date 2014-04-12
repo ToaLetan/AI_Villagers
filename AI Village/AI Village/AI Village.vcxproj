@@ -87,6 +87,9 @@
     <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameSprite.cpp" />
+    <ClCompile Include="PathNode.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Villager.cpp" />
     <ClCompile Include="WinMain.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
@@ -94,6 +97,9 @@
     <ClInclude Include="EntityManager.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameSprite.h" />
+    <ClInclude Include="PathNode.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Villager.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
