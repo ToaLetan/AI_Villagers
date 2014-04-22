@@ -87,6 +87,7 @@
     <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameSprite.cpp" />
+    <ClCompile Include="Pathfinder.cpp" />
     <ClCompile Include="PathNode.cpp" />
     <ClCompile Include="Tile.cpp" />
     <ClCompile Include="Villager.cpp" />
@@ -97,6 +98,7 @@
     <ClInclude Include="EntityManager.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameSprite.h" />
+    <ClInclude Include="Pathfinder.h" />
     <ClInclude Include="PathNode.h" />
     <ClInclude Include="Tile.h" />
     <ClInclude Include="Villager.h" />

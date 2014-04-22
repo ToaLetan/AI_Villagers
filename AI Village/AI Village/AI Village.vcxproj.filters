@@ -60,6 +60,9 @@
     <ClCompile Include="Tile.cpp">
       <Filter>Source Files\AI Files</Filter>
     </ClCompile>
+    <ClCompile Include="Pathfinder.cpp">
+      <Filter>Source Files\AI Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameObject.h">
@@ -81,6 +84,9 @@
       <Filter>Header Files\AI Headers</Filter>
     </ClInclude>
     <ClInclude Include="Tile.h">
+      <Filter>Header Files\AI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinder.h">
       <Filter>Header Files\AI Headers</Filter>
     </ClInclude>
   </ItemGroup>
